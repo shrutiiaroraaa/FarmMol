@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --pink: #ff4081;
+}
+
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(18, 15, 2);
+  outline: 1px solid rgb(82, 82, 80);
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background: #519259;
+}
+.navbar {
+  background: #ffff;
+  padding: 1rem 8rem;
+  z-index: 1000;
+}
+
+.nav .logo .h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: rgb(46, 48, 48);
+}
+
+.navbar .navbar-brand {
+  color:#000;
+  font-size: 2.1em;
+  font-weight: 700;
+  font-family: "Dancing Script", cursive;
+}
+
+.navbar-brand:hover {
+  color: #6fad14;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a {
+  color: #000;
+  font-size: 1.1rem;
+  padding: 0 0.8rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover {
+  color: #060907;
+  font-family: "Poppins", sans-serif;
+}
+
+#navbarSupportedContent > button {
+  background: cornsilk;
+  font-weight: 600;
+  padding: 0.4rem 1.4rem;
+  border-radius: 30px;
+}
+
+.mid{
+  display: flex;
+  flex-direction: row;
+}
+
+.text{
+  margin-top: 13em;
+}
+
+.img{
+  margin-top: 2em;
+}
+
+
+
+
+
+
+.about {
+  background-color: cornsilk;
+}
+.about .text h5 {
+  padding-top: 0%;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: rgb(2, 2, 2);
+}
+.about .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.about .text h2 {
+  color: #141414;
+  font-weight: 700;
+  font-size: 2.7rem;
+}
+
+.about .text p {
+  color: #111010;
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.about .text a {
+  background: #519259;
+  font-weight: 600;
+  padding: 0.6rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #111;
+}
+
+/* .btn{
+  border: #060907;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #060907;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: #519259;
+} */
+
+.discover {
+  background-color: #519259;
+}
+
+.discover .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0%;
+}
+
+.discover .text h2 {
+  color: black;
+  font-weight: 700;
+  font-size: 2.7rem;
+  margin: 0%;
+  margin-left: 0%;
+  margin-right: 2%;
+  padding-right: 0rem;
+  justify-content: center;
+}
+
+.services {
+  background-color: cornsilk;
+}
+.services .text h5 {
+  padding-top: 0%;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: rgb(2, 2, 2);
+}
+.services .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.services .text h6 {
+  color: #141414;
+  font-weight: 200;
+  font-size: 1.7rem;
+}
+
+.services .text p {
+  color: #111010;
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.services .text a {
+  background: #519259;
+  font-weight: 600;
+  padding: 0.6rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #111;
+}
+
+/*map  */
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
